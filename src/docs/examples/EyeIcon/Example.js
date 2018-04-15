@@ -1,5 +1,5 @@
 import React from 'react';
-import EyeIcon from '../../../components/EyeIcon';
+import EyeIcon from 'ps-react/EyeIcon';
 
 export default function EyeIconExample() {
   return <EyeIcon />;
