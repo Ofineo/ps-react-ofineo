@@ -7,7 +7,7 @@ import styled from 'styled-components';
 function TextInput({htmlId, name, label, type = "text", required = false, onChange, placeholder, value, error, children, ...props}) {
   const Error = styled.div`
     color: red;
-  `
+  `;
 
   const Input = styled.input`
     border: ${error && 'solid 1px red'};
